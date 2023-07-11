@@ -10,7 +10,7 @@ async function run() {
     const manager = await createAccountManager();
 
     const account = await manager.createAccount({
-      alias: "Alice",
+      alias: "Romar",
     });
     console.log("Account created:", account);
     console.log("Account:", account.meta.publicAddresses);
